@@ -14,7 +14,7 @@
     padding: 10px 0;
 }
 
-.subhead1 h1 {
+.subhead1 h2 {
     font-family: 'Lato';
     font-style: normal;
     font-weight: 700;
@@ -103,7 +103,7 @@
 
 }
 
-.head3sec1 h1 {
+.head3sec1 h2 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
@@ -145,7 +145,7 @@
     padding: 80px 0px 60px 0px;
 }
 
-.head4sec1 h1 {
+.head4sec1 h2 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
@@ -191,7 +191,7 @@
     padding-top: 5px;
 }
 
-.head4sec2sub2 h1 {
+.head4sec2sub2 h2 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
@@ -362,7 +362,7 @@
     height: 17rem;
 }
 
-.head5row2h1 {
+.head5row2h2 {
     position: relative;
     font-family: 'Poppins';
     font-style: normal;
