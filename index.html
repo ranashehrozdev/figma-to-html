@@ -5,21 +5,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.8.4/swiper-bundle.min.css" />
     <link rel="stylesheet" href="style.css">
     <title>Smart Living</title>
 </head>
 
 <body>
     <div class="head1 wrapper">
-
-        <div class="subhead1">
-            <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <a href="#">SHOP NOW</a></h2>
-        </div>
-        <div class="subhead2">
-            <p>Questions? Call us! <strong>800-555-1234</strong></p>
+        <div class="container containersp">
+            <div class="subhead1">
+                <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <a href="#">SHOP NOW</a></h2>
+            </div>
+            <div class="subhead2">
+                <p>Questions? Call us! <strong>800-555-1234</strong></p>
+            </div>
         </div>
     </div>
     <div class="head2 wrapper">
@@ -69,18 +69,31 @@
         </div>
         <div class="head4sec2">
             <div class="head4sec2sub1">
-                <div class="slimg">
-                    <img src="./imges/bigimg.png" alt="">
-                </div>
-                <div class="smimg">
-                    <img src="./imges/sm.png" alt="">
-                    <img src="./imges/sm.png" alt="">
-                    <img src="./imges/sm.png" alt="">
-                    <img src="./imges/sm.png" alt="">
-                    <img src="./imges/sm.png" alt="">
-                    <img src="./imges/sm.png" alt="">
+                <div class="gallery">
+                    <div class="swiper-container gallery-slider">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="./imges/bigimg.png" alt=""></div>
+                            <div class="swiper-slide"><img src="./imges/bigimg.png" alt=""></div>
+                            <div class="swiper-slide"><img src="./imges/bigimg.png" alt=""></div>
+                            <div class="swiper-slide"><img src="./imges/bigimg.png" alt=""></div>
+                            <div class="swiper-slide"><img src="./imges/bigimg.png" alt=""></div>
+                            <div class="swiper-slide"><img src="./imges/bigimg.png" alt=""></div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-container gallery-thumbs">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="./imges/sm.png" alt=""></div>
+                            <div class="swiper-slide"><img src="./imges/sm.png" alt=""></div>
+                            <div class="swiper-slide"><img src="./imges/sm.png" alt=""></div>
+                            <div class="swiper-slide"><img src="./imges/sm.png" alt=""></div>
+                            <div class="swiper-slide"><img src="./imges/sm.png" alt=""></div>
+                            <div class="swiper-slide"><img src="./imges/sm.png" alt=""></div>
+                        </div>
+                    </div>
                 </div>
             </div>
+
             <div class="head4sec2sub2">
                 <h2>SmartiLiving Automatic Plant Waterer <br>All-in-1 Plant Watering Globes & Self<br> Watering Plant
                     Spikes</h2>
@@ -160,8 +173,11 @@
             </div>
         </div>
     </div>
+
     <div class="head6">
-        <img src="./imges/Video Banner.png" alt="">
+         <div class="ytvideo" data-video="7ixLP6mUqnw"
+        style="width:100vw; height:80vh; background-image:url(./imges/Video\ Banner.png)">
+    </div>
         <img class="head6im2" src="./imges/Vector3.png" alt="">
     </div>
 
@@ -237,43 +253,46 @@
             </div>
         </div>
     </div>
-<footer class="footer">
-    <div class="footerc1">
-        <h2 class="footerh2">Contact</h2>
-        <div class="footimgp">
-            <img src="./imges/facebook.png" alt="" class="footimg">
-            <p class="footerc1p">SmartiLiving</p> 
+    <footer class="footer">
+        <div class="footerc1">
+            <h2 class="footerh2">Contact</h2>
+            <div class="footimgp">
+                <img src="./imges/facebook.png" alt="" class="footimg">
+                <p class="footerc1p">SmartiLiving</p>
+            </div>
+            <div class="footimgp">
+                <img src="./imges/twitter.png" alt="" class="footimg">
+                <p class="footerc1p">@SmartiLiving</p>
+            </div>
+            <p class="footerc1b">800-555-1234</p>
         </div>
-        <div class="footimgp">
-            <img src="./imges/twitter.png" alt="" class="footimg">
-            <p class="footerc1p">@SmartiLiving</p>
+        <div class="footerc2">
+            <img src="./imges/footer logo.png" alt="">
+            <div class="footerc2img">
+                <img src="./imges/footer img1.png" alt="">
+                <img src="./imges/footer img2.png" alt="">
+                <img src="./imges/footer img3.png" alt="">
+                <img src="./imges/footer img4.png" alt="">
+                <img src="./imges/footer img5.png" alt="">
+            </div>
+            <p>Payment methods accepted</p>
         </div>
-        <p class="footerc1b">800-555-1234</p>
-    </div>
-    <div class="footerc2">
-        <img src="./imges/footer logo.png" alt="">
-        <div class="footerc2img">
-            <img src="./imges/footer img1.png" alt="">
-            <img src="./imges/footer img2.png" alt="">
-            <img src="./imges/footer img3.png" alt="">
-            <img src="./imges/footer img4.png" alt="">
-            <img src="./imges/footer img5.png" alt="">
+        <div class="footerc3">
+            <h2 class="footerh2">Info & help</h2>
+            <p class="footerc3p">FAQ</p>
+            <p class="footerc3p">Contact</p>
+            <p class="footerc3p">Terms & Conditions</p>
+            <p class="footerc3p">Privacy Policy</p>
+            <p class="footerc3p">Returns</p>
         </div>
-        <p>Payment methods accepted</p>
-    </div>
-    <div class="footerc3">
-        <h2 class="footerh2">Info & help</h2>
-        <p class="footerc3p">FAQ</p>
-        <p class="footerc3p">Contact</p>
-        <p class="footerc3p">Terms & Conditions</p>
-        <p class="footerc3p">Privacy Policy</p>
-        <p class="footerc3p">Returns</p>
-    </div>
 
-</footer>
+    </footer>
 
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js" integrity="sha512-DUC8yqWf7ez3JD1jszxCWSVB0DMP78eOyBpMa5aJki1bIRARykviOuImIczkxlj1KhVSyS16w2FSQetkD4UU2w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.8.4/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
+
 </body>
 
 </html>

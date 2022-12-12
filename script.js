@@ -4,12 +4,45 @@ const inputField = document.getElementById('input');
 
 minusButton.addEventListener('click', event => {
     event.preventDefault();
-    const currentValue = Number(inputField.value) || 0;
-    inputField.value = currentValue - 1;
+    if (inputField.value > 0) {
+        const currentValue = Number(inputField.value) || 0;
+        inputField.value = currentValue - 1;
+    }
+   
 });
 
 plusButton.addEventListener('click', event => {
     event.preventDefault();
     const currentValue = Number(inputField.value) || 0;
     inputField.value = currentValue + 1;
+});
+
+var slider = new Swiper ('.gallery-slider', {
+    slidesPerView: 1,
+    centeredSlides: true,
+    loop: true,
+    loopedSlides: 6, 
+  
+});
+
+var thumbs = new Swiper ('.gallery-thumbs', {
+    slidesPerView: 6,
+    spaceBetween: 10,
+    loop: true,
+    slideToClickedSlide: true,
+});
+
+slider.controller.control = thumbs;
+thumbs.controller.control = slider;
+
+
+
+
+$('.ytvideo[data-video]').one('click', function() {
+
+var $this = $(this);
+var width = $this.attr("width");
+var height = $this.attr("height");
+
+$this.html('<iframe src="https://www.youtube.com/embed/' + $this.data("video") + '?autoplay=1"></iframe>');
 });
