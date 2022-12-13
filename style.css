@@ -9,18 +9,24 @@
 
 .head1 {
     background: #D3DDD5;
-    margin: 0 auto;
     padding: 10px 0;
 }
 
 .container {
-   max-width: 1540px;
+    max-width: 1540px;
+    margin: 0 auto;
 }
 
-.containersp{
+.containersp {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+
+}
+
+.wrapcontainer {
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
 .subhead1 h2 {
@@ -51,12 +57,6 @@
 
 .head2 {
     padding: 30px 0px 20px 0px;
-    display: grid;
-    grid-template-columns: 30% 70%;
-}
-
-.head2subhead1 {
-    padding-left: 150px;
 }
 
 .head2subhead2 {
@@ -105,11 +105,6 @@
     background-position: center;
     padding: 250px 0;
     background-color: #EDEDED;
-}
-
-.head3sec1 {
-    padding-left: 150px;
-
 }
 
 .head3sec1 h2 {
@@ -177,13 +172,10 @@
 }
 
 .head4sec2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    justify-content: space-between;
     margin-top: 80px;
-}
-
-.head4sec2sub1 {
-    padding-left: 150px;
+    align-items: center;
 }
 
 .smimg img {
@@ -364,12 +356,14 @@
 .head5row2 {
     display: flex;
     padding-top: 10px;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    align-items: end;
 }
 
 .head5row2img {
-    height: 17rem;
-}
+    justify-content: center;
+    display: flex;
+  }
 
 .head5row2h2 {
     position: relative;
@@ -572,26 +566,31 @@
     max-width: 620px;
     margin: 40px auto;
 }
+
 .gallery-slider {
     width: 100%;
     height: auto;
     margin: 0 0 10px 0;
 }
+
 .gallery-slider .swiper-slide {
     width: 100%;
-   
+
 }
+
 .gallery-slider .swiper-slide img {
     display: block;
     width: 100%;
     height: 100%;
     margin: 0 auto;
 }
+
 .gallery-thumbs {
     width: 100%;
     padding: 0;
     overflow: hidden;
 }
+
 .gallery-thumbs .swiper-slide {
     width: 100px;
     height: 100px;
@@ -607,10 +606,10 @@
 
 .imgvideo {
     cursor: pointer;
-  }
-  
-  
-  .ytvideo {
+}
+
+
+.ytvideo {
     position: relative;
     margin: 0;
     padding: 0;
@@ -620,11 +619,10 @@
     -webkit-background-size: cover;
     background-size: cover;
     cursor: pointer;
-  }
-  
-  .ytvideo iframe {
+}
+
+.ytvideo iframe {
     border-style: none;
     height: 100%;
     width: 100%;
 }
-  
