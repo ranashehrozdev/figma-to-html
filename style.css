@@ -24,6 +24,11 @@
 
 }
 
+.h2p{
+    max-width: 618px;
+    margin: 0 auto;
+}
+
 .wrapcontainer {
     display: flex;
     justify-content: space-between;
@@ -115,6 +120,7 @@
     line-height: 53px;
     text-transform: uppercase;
     color: #0A0A0A;
+    max-width: 669px;
 }
 
 .head3sec1 p {
@@ -125,6 +131,7 @@
     line-height: 27px;
     color: #0A0A0A;
     padding: 30px 0;
+    max-width: 578px;
 }
 
 .head3sec1 a {
@@ -200,6 +207,7 @@
     line-height: 40px;
     letter-spacing: 0.2px;
     color: #222222;
+    max-width: 597px;
 }
 
 .head4sec2sub2 p {
@@ -210,6 +218,7 @@
     line-height: 22px;
     letter-spacing: 0.2px;
     color: #525252;
+    max-width: 594px;
 }
 
 .cllr {
@@ -384,6 +393,7 @@
     line-height: 21px;
     text-align: center;
     color: #525252;
+    max-width: 287px;
 }
 
 .head6 img {
@@ -421,10 +431,29 @@
     margin-top: 1rem;
 }
 
+.head7row2c3 > ul:nth-child(2) > li:nth-child(1),
+.head7row2c1 > ul:nth-child(2) > li:nth-child(1) {
+    max-width: 249px;
+}
+
+.head7row2c3 > ul:nth-child(2) > li:nth-child(2),
+.head7row2c1 > ul:nth-child(2) > li:nth-child(2) {
+    max-width: 287px;
+}
+
+.head7row2c3 > ul:nth-child(2) > li:nth-child(3),
+.head7row2c1 > ul:nth-child(2) > li:nth-child(3) {
+    max-width: 253px;
+}
+
+.head7row2c1 > ul:nth-child(2) > li:nth-child(4) {
+    max-width: 259px;
+  }
+
 .head8row2,
 .head7row2 {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     padding-top: 60px;
 }
 
@@ -458,6 +487,7 @@
     display: flex;
     flex-direction: column;
     border-radius: 6px;
+    max-width: 472px;
 }
 
 .head8row2p {
@@ -469,6 +499,7 @@
     text-align: center;
     color: #1B1B1B;
     padding-top: 20px;
+    max-width: 330px;
 }
 
 .head8h6 {
@@ -491,11 +522,10 @@
     text-align: center;
     color: #1B1B1B;
     padding-top: 5px;
+    
 }
 
 .footer {
-    display: flex;
-    justify-content: space-evenly;
     padding: 50px 0px;
 }
 
@@ -509,13 +539,14 @@
     padding-bottom: 12px;
 }
 
-.footerc1p {
+.footerc1a {
     font-family: 'Arial';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     color: #02050E;
+    text-decoration:none ;
 }
 
 .footerc1b {
@@ -548,16 +579,33 @@
 }
 
 .footerc2img {
-    margin: 5px 0px;
+    padding: 5px 0px;
+    display: flex;
+    align-items: center;
 }
 
-.footerc3p {
+.footerc2imgg{
+    margin-right: 15px;
+}
+
+.head8row2img,
+.footerc2iimg {
+    display: flex;
+    justify-content: center;
+  }
+
+.footerc3a {
     font-family: 'Arial';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     color: #02050E;
+    text-decoration: none;
+}
+
+.footerc3 ul {
+    list-style: none;
 }
 
 
