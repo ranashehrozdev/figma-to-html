@@ -647,6 +647,10 @@ ul {
     list-style: none;
 }
 
+a{
+    text-decoration: none;
+}
+
 .footerc2imgg {
     margin-right: 15px;
 }
