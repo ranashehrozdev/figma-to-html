@@ -15,6 +15,7 @@
 .container {
     max-width: 1540px;
     margin: 0 auto;
+    height: 100%;
 }
 
 .containersp {
@@ -24,7 +25,7 @@
 
 }
 
-.h2p{
+.h2p {
     max-width: 618px;
     margin: 0 auto;
 }
@@ -32,7 +33,10 @@
 .wrapcontainer {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    height: 100%;
 }
+
 
 .subhead1 h2 {
     font-family: 'Lato';
@@ -61,7 +65,21 @@
 }
 
 .head2 {
-    padding: 30px 0px 20px 0px;
+    padding: 30px 0px;
+}
+
+.login {
+    color: #0A0A0A;
+}
+
+.head2subhead1 h1 {
+    font-family: 'AmstelvarAlpha';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 42px;
+    text-align: center;
+    color: #0A0A0A;
 }
 
 .head2subhead2 {
@@ -73,9 +91,12 @@
     display: flex;
 }
 
+.head2subhead2 ul li:not(:last-child) {
+    margin-right: 40px;
+}
+
 .head2subhead2 ul li {
     list-style: none;
-    padding: 0 20px;
 }
 
 .head2subhead2 ul li a {
@@ -90,9 +111,8 @@
     font-family: 'Poppins';
     font-weight: 500;
     font-size: 18px;
-    color: #02050E;
     text-decoration: none;
-
+    display: inline-block;
 }
 
 .signup {
@@ -108,7 +128,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding: 250px 0;
+    height: 80vh;
     background-color: #EDEDED;
 }
 
@@ -146,6 +166,7 @@
     color: #FFFFFF;
     text-decoration: none;
     padding: 10px 30px;
+    display: inline-block;
 }
 
 .head3bottom {
@@ -253,6 +274,11 @@
     padding: 15px;
     width: 38rem;
     margin-top: 10px;
+    background: #C5C6C9;
+}
+
+#input:focus {
+    outline: none;
 }
 
 .price {
@@ -372,7 +398,7 @@
 .head5row2img {
     justify-content: center;
     display: flex;
-  }
+}
 
 .head5row2h2 {
     position: relative;
@@ -431,26 +457,33 @@
     margin-top: 1rem;
 }
 
-.head7row2c3 > ul:nth-child(2) > li:nth-child(1),
-.head7row2c1 > ul:nth-child(2) > li:nth-child(1) {
+.head7row2c3>ul:nth-child(2)>li:nth-child(1),
+.head7row2c1>ul:nth-child(2)>li:nth-child(1) {
     max-width: 249px;
 }
 
-.head7row2c3 > ul:nth-child(2) > li:nth-child(2),
-.head7row2c1 > ul:nth-child(2) > li:nth-child(2) {
+.head7row2c3>ul:nth-child(2)>li:nth-child(2),
+.head7row2c1>ul:nth-child(2)>li:nth-child(2) {
     max-width: 287px;
 }
 
-.head7row2c3 > ul:nth-child(2) > li:nth-child(3),
-.head7row2c1 > ul:nth-child(2) > li:nth-child(3) {
+.head7row2c3>ul:nth-child(2)>li:nth-child(3),
+.head7row2c1>ul:nth-child(2)>li:nth-child(3) {
     max-width: 253px;
 }
 
-.head7row2c1 > ul:nth-child(2) > li:nth-child(4) {
+.head7row2c1>ul:nth-child(2)>li:nth-child(4) {
     max-width: 259px;
-  }
+}
 
-.head8row2,
+.head8row2 {
+   
+    padding-top: 60px;
+    margin: 0 auto;
+    max-width: 1500px;
+    overflow: hidden;
+}
+
 .head7row2 {
     display: flex;
     justify-content: space-between;
@@ -469,6 +502,7 @@
     color: #FFFFFF;
     text-decoration: none;
     padding: 10px 30px;
+    display: inline-block;
 }
 
 .head7row3 {
@@ -483,7 +517,7 @@
 
 .head8row2c {
     background-color: white;
-    padding: 25px 100px;
+    padding: 25px;
     display: flex;
     flex-direction: column;
     border-radius: 6px;
@@ -522,7 +556,31 @@
     text-align: center;
     color: #1B1B1B;
     padding-top: 5px;
-    
+
+}
+
+
+
+
+.testimonials {
+    text-align: center;
+    width: 1180px;
+    margin: 0 auto;
+
+}
+
+.testimonial {
+    margin: 0 10px;
+    text-align: center;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+    bottom: 10px;
+    left: 0;
+    width: 100%;
 }
 
 .footer {
@@ -546,7 +604,8 @@
     font-size: 16px;
     line-height: 24px;
     color: #02050E;
-    text-decoration:none ;
+    text-decoration: none;
+    display: inline-block;
 }
 
 .footerc1b {
@@ -584,7 +643,7 @@
     align-items: center;
 }
 
-.footerc2imgg{
+.footerc2imgg {
     margin-right: 15px;
 }
 
@@ -592,7 +651,7 @@
 .footerc2iimg {
     display: flex;
     justify-content: center;
-  }
+}
 
 .footerc3a {
     font-family: 'Arial';
@@ -602,6 +661,7 @@
     line-height: 24px;
     color: #02050E;
     text-decoration: none;
+    display: inline-block;
 }
 
 .footerc3 ul {

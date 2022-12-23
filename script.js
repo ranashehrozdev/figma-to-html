@@ -32,6 +32,19 @@ var thumbs = new Swiper ('.gallery-thumbs', {
     slideToClickedSlide: true,
 });
 
+
+
+$('.testimonials').slick({
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    dots: false,
+    infinite: true,
+    cssEase: 'linear',
+    slide: 'li',
+    arrows: true,
+});
+
+
 slider.controller.control = thumbs;
 thumbs.controller.control = slider;
 

@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.8.4/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.slick/1.5.0/slick-theme.css">
     <link rel="stylesheet" href="style.css">
     <title>Smart Living</title>
 </head>
@@ -14,36 +16,41 @@
 <body>
 
     <div class="head1 wrapper">
-        <div class="container containersp">
-            <div class="subhead1">
-                <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <a href="#">SHOP NOW</a></h2>
+        <div class="container">
+            <div class="containersp">
+                <div class="subhead1">
+                    <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <a href="#">SHOP NOW</a></h2>
+                </div>
+                <div class="subhead2">
+                    <p>Questions? Call us! <strong>800-555-1234</strong></p>
+                </div>
             </div>
-            <div class="subhead2">
-                <p>Questions? Call us! <strong>800-555-1234</strong></p>
-            </div>
+
         </div>
     </div>
 
 
     <div class="head2 wrapper">
-        <div class="container wrapcontainer">
-            <div class="head2subhead1">
-                <img src="./imges/smartliving.png" alt="">
-            </div>
-            <div class="head2subhead2">
-                <div class=".nav">
-                    <ul>
-                        <li><a href="#">SHOP</a></li>
-                        <li><a href="#">ABOUT</a></li>
-                        <li><a href="#">HOW WE'RE DIFFERENT</a></li>
-                        <li><a href="#">CONTACT US</a></li>
-                    </ul>
+        <div class="container">
+            <div class="wrapcontainer">
+                <div class="head2subhead1">
+                    <h1>smart<span style="color: #629E2C;">living</span></h1>
                 </div>
-            </div>
-            <div class="shop">
-                <a href="#" class="login">LOGIN</a>
-                <a href="#" class="signup">SIGN UP</a>
-                <i class="fa-solid fa-cart-shopping"></i>
+                <div class="head2subhead2">
+                    <div class=".nav">
+                        <ul>
+                            <li><a href="#">SHOP</a></li>
+                            <li><a href="#">ABOUT</a></li>
+                            <li><a href="#">HOW WE'RE DIFFERENT</a></li>
+                            <li><a href="#">CONTACT US</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="shop">
+                    <a href="#" class="login">LOGIN</a>
+                    <a href="#" class="signup">SIGN UP</a>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
             </div>
         </div>
 
@@ -51,19 +58,21 @@
 
 
     <div class="head3 wrapper padd">
-        <div class="container wrapcontainer">
-            <div class="head3sec1">
-                <h2>
-                    GIVE YOUR PLANTS THE
-                    CARE THEY DESERVE!
-                </h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
-                    lorem velit, lobortis vitae nibh ac, sagittis scelerisque magna. Nullam
-                    vitae accumsan velit. Vestibulum vitae hendrerit mi. Etiam scelerisque
-                    magna sed auctor sagittis.
-                </p>
-                <a href="#">BUY NOW</a>
+        <div class="container">
+            <div class="wrapcontainer wcontainer">
+                <div class="head3sec1">
+                    <h2>
+                        GIVE YOUR PLANTS THE
+                        CARE THEY DESERVE!
+                    </h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
+                        lorem velit, lobortis vitae nibh ac, sagittis scelerisque magna. Nullam
+                        vitae accumsan velit. Vestibulum vitae hendrerit mi. Etiam scelerisque
+                        magna sed auctor sagittis.
+                    </p>
+                    <a href="#">BUY NOW</a>
+                </div>
             </div>
         </div>
     </div>
@@ -76,7 +85,8 @@
         <div class="container">
             <div class="head4sec1">
                 <h2>GET YOURS NOW</h2>
-                <p class="h2p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque lorem velit, lobortis vitae
+                <p class="h2p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque lorem velit,
+                    lobortis vitae
                     nibh ac, sagittis scelerisque magna.</p>
             </div>
             <div class="head4sec2">
@@ -127,6 +137,8 @@
                         <label for="box">Select option:</label>
                         <select name="box" id="box">
                             <option value="box6">Box of 6</option>
+                            <option value="box6">Box of 6</option>
+                            <option value="box6">Box of 6</option>
                         </select>
                     </form>
                     <div class="price">
@@ -160,7 +172,8 @@
                 <h2>
                     HOW DOES IT WORK!
                 </h2>
-                <p class="h2p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque lorem velit, lobortis vitae
+                <p class="h2p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque lorem velit,
+                    lobortis vitae
                     nibh ac.</p>
             </div>
             <div class="head5row2">
@@ -213,7 +226,8 @@
                 <h2>
                     how WE’RE DIFFERENT
                 </h2>
-                <p class="h2p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque lorem velit, lobortis vitae
+                <p class="h2p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque lorem velit,
+                    lobortis vitae
                     nibh ac.</p>
             </div>
             <div class="head7row2">
@@ -255,99 +269,156 @@
                 <h2>
                     WHAT OUR CUSTOMERS are SAYing
                 </h2>
-                <p class="h2p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque lorem velit, lobortis vitae
+                <p class="h2p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque lorem velit,
+                    lobortis vitae
                     nibh ac.</p>
             </div>
             <div class="head8row2">
-                <div class="head8row2c1 head8row2c">
-                    <div class="head8row2img">
-                        <img  src="./imges/star.png" alt="">
+                <div class="swiper">
+                    <div class=" testimonials">
+                        <div class="head8row2c1 head8row2c testimonial ">
+                            <div class="head8row2img">
+                                <img src="./imges/star.png" alt="">
+                            </div>
+                            <p class="head8row2p">I was looking for something sustainable and effective. After a few
+                                weeks later
+                                I first recognised the effect. Now 2 years later I always forget how many days I have
+                                watered
+                                before I need to again.</p>
+                            <h6 class="head8h6">John Doe</h6>
+                            <p class="head8p">11/26/2021</p>
+                        </div>
+                        <div class="head8row2c1 head8row2c testimonial ">
+                            <div class="head8row2img">
+                                <img src="./imges/star.png" alt="">
+                            </div>
+                            <p class="head8row2p">I was looking for something sustainable and effective. After a few
+                                weeks later
+                                I first recognised the effect. Now 2 years later I always forget how many days I have
+                                watered
+                                before I need to again.</p>
+                            <h6 class="head8h6">John Doe</h6>
+                            <p class="head8p">11/26/2021</p>
+                        </div>
+                        <div class="head8row2c1 head8row2c testimonial ">
+                            <div class="head8row2img">
+                                <img src="./imges/star.png" alt="">
+                            </div>
+                            <p class="head8row2p">I was looking for something sustainable and effective. After a few
+                                weeks later
+                                I first recognised the effect. Now 2 years later I always forget how many days I have
+                                watered
+                                before I need to again.</p>
+                            <h6 class="head8h6">John Doe</h6>
+                            <p class="head8p">11/26/2021</p>
+                        </div>
+                        <div class="head8row2c1 head8row2c testimonial ">
+                            <div class="head8row2img">
+                                <img src="./imges/star.png" alt="">
+                            </div>
+                            <p class="head8row2p">I was looking for something sustainable and effective. After a few
+                                weeks later
+                                I first recognised the effect. Now 2 years later I always forget how many days I have
+                                watered
+                                before I need to again.</p>
+                            <h6 class="head8h6">John Doe</h6>
+                            <p class="head8p">11/26/2021</p>
+                        </div>
+                        <div class="head8row2c1 head8row2c testimonial ">
+                            <div class="head8row2img">
+                                <img src="./imges/star.png" alt="">
+                            </div>
+                            <p class="head8row2p">I was looking for something sustainable and effective. After a few
+                                weeks later
+                                I first recognised the effect. Now 2 years later I always forget how many days I have
+                                watered
+                                before I need to again.</p>
+                            <h6 class="head8h6">John Doe</h6>
+                            <p class="head8p">11/26/2021</p>
+                        </div>
+                        <div class="head8row2c1 head8row2c testimonial ">
+                            <div class="head8row2img">
+                                <img src="./imges/star.png" alt="">
+                            </div>
+                            <p class="head8row2p">I was looking for something sustainable and effective. After a few
+                                weeks later
+                                I first recognised the effect. Now 2 years later I always forget how many days I have
+                                watered
+                                before I need to again.</p>
+                            <h6 class="head8h6">John Doe</h6>
+                            <p class="head8p">11/26/2021</p>
+                        </div>
                     </div>
-                    <p class="head8row2p">I was looking for something sustainable and effective. After a few weeks later I first recognised the effect. Now 2 years later I always forget how many days I have watered before I need to again.</p>
-                    <h6 class="head8h6">John Doe</h6>
-                    <p class="head8p">11/26/2021</p>
                 </div>
-                <div class="head8row2c1 head8row2c">
-                    <div class="head8row2img">
-                        <img  src="./imges/star.png" alt="">
-                    </div>
-                    <p class="head8row2p">I was looking for something sustainable and effective. After a few weeks later I first recognised the effect. Now 2 years later I always forget how many days I have watered before I need to again.</p>
-                    <h6 class="head8h6">John Doe</h6>
-                    <p class="head8p">11/26/2021</p>
-                </div>
-                <div class="head8row2c1 head8row2c">
-                    <div class="head8row2img">
-                        <img  src="./imges/star.png" alt="">
-                    </div>                    <p class="head8row2p">I was looking for something sustainable and effective. After a few weeks later I first recognised the effect. Now 2 years later I always forget how many days I have watered before I need to again.</p>
-                    <h6 class="head8h6">John Doe</h6>
-                    <p class="head8p">11/26/2021</p>
-                </div>
+                <div class="swiper-pagination"></div>
             </div>
         </div>
     </div>
     <footer class="footer">
-        <div class="container wrapcontainer">
-            <div class="footerc1">
-                <h2 class="footerh2">Contact</h2>
-                <div class="footimgp">
-                    <div>
-                      <img src="./imges/facebook.png" alt="" class="footimg">
+        <div class="container">
+            <div class="wrapcontainer">
+                <div class="footerc1">
+                    <h2 class="footerh2">Contact</h2>
+                    <div class="footimgp">
+                        <div>
+                            <img src="./imges/facebook.png" alt="" class="footimg">
+                        </div>
+                        <a href="#" class="footerc1a">SmartiLiving</a>
                     </div>
-                    <a href="#" class="footerc1a">SmartiLiving</a>
-                </div>
-                <div class="footimgp">
-                    
-                    <div>
-                        <img src="./imges/twitter.png" alt="" class="footimg">
-                    </div>
-                    <a href="#" class="footerc1a">@SmartiLiving</a>
-                </div>
-                <p class="footerc1b">800-555-1234</p>
-            </div>
-            <div class="footerc2">
-                <div class="footerc2iimg">
-                    <img src="./imges/footer logo.png" alt="">
-                </div>
-                <div class="footerc2img">
-                    <div class="footerc2imgg">
-                        <img src="./imges/footer img1.png" alt="">
-                    </div>
+                    <div class="footimgp">
 
-                    <div class="footerc2imgg">
-                        <img src="./imges/footer img2.png" alt="">
+                        <div>
+                            <img src="./imges/twitter.png" alt="" class="footimg">
+                        </div>
+                        <a href="#" class="footerc1a">@SmartiLiving</a>
                     </div>
-
-                    <div class="footerc2imgg">
-                        <img src="./imges/footer img3.png" alt="">
-                    </div>
-
-                    <div class="footerc2imgg">
-                        <img src="./imges/footer img4.png" alt="">
-                    </div>
-
-                    <div class="footerc2imgg">
-                        <img src="./imges/footer img5.png" alt="">
-                    </div>
+                    <p class="footerc1b">800-555-1234</p>
                 </div>
-                <p>Payment methods accepted</p>
-            </div>
-            <div class="footerc3">
-                <h2 class="footerh2">Info & help</h2>
-                <ul>
-                    <li><a href="#" class="footerc3a">FAQ</a></li>
-                    <li><a href="#" class="footerc3a">Contact</a></li>
-                    <li><a href="#" class="footerc3a">Terms & Conditions</a></li>
-                    <li><a href="#" class="footerc3a">Privacy Policy</a></li>
-                    <li><a href="#" class="footerc3a">Returns</a></li>
-                </ul>
+                <div class="footerc2">
+                    <div class="footerc2iimg">
+                        <img src="./imges/footer logo.png" alt="">
+                    </div>
+                    <div class="footerc2img">
+                        <div class="footerc2imgg">
+                            <img src="./imges/footer img1.png" alt="">
+                        </div>
+
+                        <div class="footerc2imgg">
+                            <img src="./imges/footer img2.png" alt="">
+                        </div>
+
+                        <div class="footerc2imgg">
+                            <img src="./imges/footer img3.png" alt="">
+                        </div>
+
+                        <div class="footerc2imgg">
+                            <img src="./imges/footer img4.png" alt="">
+                        </div>
+
+                        <div class="footerc2imgg">
+                            <img src="./imges/footer img5.png" alt="">
+                        </div>
+                    </div>
+                    <p>Payment methods accepted</p>
+                </div>
+                <div class="footerc3">
+                    <h2 class="footerh2">Info & help</h2>
+                    <ul>
+                        <li><a href="#" class="footerc3a">FAQ</a></li>
+                        <li><a href="#" class="footerc3a">Contact</a></li>
+                        <li><a href="#" class="footerc3a">Terms & Conditions</a></li>
+                        <li><a href="#" class="footerc3a">Privacy Policy</a></li>
+                        <li><a href="#" class="footerc3a">Returns</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </footer>
 
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"
-        integrity="sha512-DUC8yqWf7ez3JD1jszxCWSVB0DMP78eOyBpMa5aJki1bIRARykviOuImIczkxlj1KhVSyS16w2FSQetkD4UU2w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    integrity="sha512-DUC8yqWf7ez3JD1jszxCWSVB0DMP78eOyBpMa5aJki1bIRARykviOuImIczkxlj1KhVSyS16w2FSQetkD4UU2w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.slick/1.5.0/slick.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.8.4/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
 
