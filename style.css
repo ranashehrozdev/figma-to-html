@@ -637,10 +637,14 @@
     color: #525252;
 }
 
-.footerc2img {
+.footerc2img ul {
     padding: 5px 0px;
     display: flex;
     align-items: center;
+}
+
+ul {
+    list-style: none;
 }
 
 .footerc2imgg {
