@@ -43,10 +43,10 @@ $('.testimonials').slick({
     slide: 'li',
     arrows: true,
     responsive: [{
-        breakpoint: 800,
+        breakpoint: 850,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 2,
+          slidesToScroll: 1,
   
         }
       },  {
