@@ -861,8 +861,8 @@ a {
     }
 
     .head5row2 {
-        flex-direction: column;
-        align-items: center;
+        display: grid;
+        grid-template-columns: 50% 50%;
     }
 
     .head7row2,
@@ -902,10 +902,8 @@ a {
         margin-bottom: 3rem;
     }
 
-    .head5row2col1,
-    .head5row2col2,
-    .head5row2col3 {
-        margin-bottom: 5rem;
+    .head5row2p {
+        max-width: 400px;
     }
 
     .head7row2 {
@@ -930,5 +928,5 @@ a {
         text-align: center;
     }
 
-   
+
 }
