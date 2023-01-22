@@ -68,8 +68,8 @@ thumbs.controller.control = slider;
 $('.ytvideo[data-video]').one('click', function () {
 
   var $this = $(this);
-  var width = $this.attr("width");
-  var height = $this.attr("height");
+  var width = $this.css("width","100vw");
+  var height = $this.css("height","80vh");
 
   $this.html('<iframe src="https://www.youtube.com/embed/' + $this.data("video") + '?autoplay=1"></iframe>');
 });

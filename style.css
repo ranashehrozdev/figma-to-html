@@ -11,9 +11,7 @@ img {
     height: auto;
 }
 
-.imghb {
-    width: 99vw;
-}
+
 
 .spstyle {
     color: #629E2C;
@@ -23,6 +21,27 @@ img {
 .head1 {
     background: #D3DDD5;
     padding: 10px 0;
+}
+
+.iconText {
+    position: relative;
+    left: 90.5%;
+    right: 7.25%;
+    top: -31px;
+    bottom: 98.35%;
+    width: 16px;
+    height: 13.98px;
+    background: #E12639;
+    border-radius: 8px;
+}
+
+.icontext {
+    font-family: 'Hind';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    text-align: center;
+    color: #FFFFFF;
 }
 
 .container {
@@ -48,6 +67,10 @@ img {
     justify-content: space-between;
     align-items: center;
     height: 100%;
+}
+
+.wrrapcontainer{
+    padding: 0 12vw;
 }
 
 .navbar input[type="checkbox"],
@@ -124,6 +147,11 @@ img {
     text-decoration: none;
 }
 
+.shop {
+    display: flex;
+    align-items: center;
+}
+
 .shop a {
     font-family: 'Poppins';
     font-weight: 500;
@@ -144,7 +172,7 @@ img {
     background-image: url(./imges/Rectangle.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: right;
     height: 80vh;
     background-color: #EDEDED;
 }
@@ -223,9 +251,7 @@ img {
     align-items: center;
 }
 
-/* .smimg img {
-    margin: 15px 8px;
-} */
+
 
 .review {
     display: flex;
@@ -290,9 +316,10 @@ img {
 
 #box {
     padding: 15px;
-    width: 38rem;
     margin-top: 10px;
-    background: #C5C6C9;
+    border: 1px solid #C5C6C9;
+    border-radius: 5px;
+    background: #F5F5F5;
 }
 
 #input:focus {
@@ -328,7 +355,8 @@ img {
     border: 1px solid #DDDDDD;
     padding: 15px 20px;
     border-radius: 50px;
-    width: 110px;
+    width: 131px;
+    text-align: center;
 }
 
 .valinp {
@@ -345,6 +373,7 @@ img {
     background: transparent;
     font-size: 1rem;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .adc {
@@ -359,15 +388,16 @@ img {
     letter-spacing: 0.2px;
     text-transform: uppercase;
     color: #FFFFFF;
-    margin-left: 20px;
     text-decoration: none;
-    padding: 14px 128px
+    padding: 14px 128px;
+    width: 100%;
 }
 
 .badd {
     display: flex;
     align-items: center;
     margin-top: 20px;
+    justify-content: space-between;
 }
 
 .head5 {
@@ -443,13 +473,33 @@ img {
     max-width: 287px;
 }
 
-.head6 img {
-    width: 100%;
+.head6{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(./imges/video-banner1.jpg);
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.head6im2 {
-    margin-top: -12px;
+.plbtimg{
+    
+    width: 149px;
+height: 149px;
+border-radius: 50%;
+background: #629E2C;
+box-shadow: 0px 4px 16px 4px rgba(0, 0, 0, 0.25);
 }
+
+.plbt{
+    position: relative;
+    top: 40px;
+    left: 57px;
+    width: 50px;
+}
+
+
+
 
 .head7 {
     padding: 80px 0px;
@@ -586,14 +636,17 @@ img {
 
 .testimonials {
     text-align: center;
-    width: 1180px;
+    width: 1400px;
     margin: 0 auto;
 
 }
 
 .testimonial {
-    margin: 0 10px;
     text-align: center;
+}
+
+.testimonial:not(:last-child){
+    margin-right: 60px;
 }
 
 .swiper-horizontal>.swiper-pagination-bullets,
@@ -795,6 +848,10 @@ a {
 
 @media (max-width: 850px) {
 
+    .wrrapcontainer{
+        padding: 0px ;
+    }
+
     .navbar {
         opacity: 0.95;
     }
@@ -896,7 +953,6 @@ a {
         transform: rotate(-45deg);
     }
 
-    .head6 img,
     .shop {
         display: none;
     }
