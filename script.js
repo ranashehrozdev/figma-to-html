@@ -65,11 +65,10 @@ thumbs.controller.control = slider;
 
 
 
-$('.ytvideo[data-video]').one('click', function () {
+$("#youtubevid").hide();
 
-  var $this = $(this);
-  var width = $this.css("width","100vw");
-  var height = $this.css("height","80vh");
+$(".plbtimg").click(function () {
+  $(".plbtimg").hide();
+  $("#youtubevid").show();
+})
 
-  $this.html('<iframe src="https://www.youtube.com/embed/' + $this.data("video") + '?autoplay=1"></iframe>');
-});
