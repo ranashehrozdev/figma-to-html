@@ -30,6 +30,17 @@ var thumbs = new Swiper('.gallery-thumbs', {
   spaceBetween: 10,
   loop: true,
   slideToClickedSlide: true,
+  breakpoints: {
+    1024: {
+      slidesPerView: 6,
+    },  
+    640: {
+      slidesPerView: 4,
+    },
+    320: {
+      slidesPerView: 4,
+    }
+  }
 });
 
 

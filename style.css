@@ -24,6 +24,9 @@ img {
     color: #629E2C;
 }
 
+.resnav {
+    display: none;
+}
 
 .head1 {
     background: #D3DDD5;
@@ -841,6 +844,19 @@ a {
 
 @media (max-width:1560px) {
 
+    .gallery-slider .swiper-slide {
+        width: 450px !important;
+    }
+
+    .gallery {
+        max-width: 450px;
+    }
+
+    .head4sec2sub2 h2 {
+
+        font-size: 24px;
+    }
+
     .wrapper {
         padding-left: 5vw;
         padding-right: 5vw;
@@ -862,6 +878,7 @@ a {
         padding-left: 80px;
         padding-right: 80px;
         margin-left: 10px;
+        font-size: 14px;
     }
 
     .wcontainer {
@@ -872,9 +889,23 @@ a {
     .head8row2 {
         max-width: 880px;
     }
+
+    .head3sec1 {
+        background-color: rgba(255, 255, 255, .5);
+        padding: 36px;
+    }
 }
 
 @media (max-width: 850px) {
+
+    .resnav {
+        display: block;
+    }
+
+    .iconText {
+        position: relative;
+        left: 51.5%;
+    }
 
     .head3sec1 {
         background-color: rgba(255, 255, 255, .5);
@@ -1052,9 +1083,95 @@ a {
         background-size: auto;
     }
 
+    .head4sec2sub2 {
+        margin-left: 0px;
+    }
 
 }
 
 
 
 
+@media screen and (max-width: 480px) {
+    .gallery-slider .swiper-slide {
+        width: 350px !important;
+    }
+
+    .gallery {
+        max-width: 350px;
+    }
+
+    .buyimg {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar .menu-items {
+        margin-left: -166px;
+    }
+
+    .subhead1 h2 {
+        text-align: center;
+        font-size: 13px !important;
+    }
+
+    .navbar .hamburger-lines {
+
+        height: 20px;
+        width: 26px;
+    }
+
+    .head3sec1 h1 {
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 38px;
+    }
+
+    h2 {
+        font-size: 20px !important;
+        line-height: 30px !important;
+    }
+
+    p {
+        font-size: 14px !important;
+        line-height: 24px;
+    }
+
+    .adc {
+        padding-left: 38px;
+        padding-right: 40px;
+        margin-left: 10px;
+        font-size: 12px;
+    }
+
+    .head5row2 {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-row-gap: 25px;
+    }
+
+    .head7row2c2.head7c {
+        width: 320px;
+    }
+
+    h3 {
+        font-size: 18px !important;
+        line-height: 26px !important;
+    }
+
+    .head7li {
+        font-family: 'Arial';
+        font-style: normal;
+        font-size: 14px;
+    }
+
+    .footwrap {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+      }
+
+      .footerc1,.footerc2 {
+        margin-bottom: 2rem;
+      }
+}
