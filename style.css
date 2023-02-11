@@ -1169,9 +1169,19 @@ a {
         display: flex;
         text-align: center;
         flex-direction: column;
+    }
+
+    .footerc1,
+    .footerc2 {
+        margin-bottom: 2rem;
+    }
+
+    .testimonials {
+        width: 350px;
+    }
+
+    .testimonial:not(:last-child) {
+        margin: 0 30px;
       }
 
-      .footerc1,.footerc2 {
-        margin-bottom: 2rem;
-      }
 }
